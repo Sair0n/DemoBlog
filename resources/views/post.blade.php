@@ -38,7 +38,15 @@
 
         <!-- component -->
 
+        <div>
 
+            <section class="rounded-b-lg  mt-4 ">
+
+                @livewire('comments',['post_id' => $post->id])
+
+            </section>
+
+        </div>
 
 
     </div>
